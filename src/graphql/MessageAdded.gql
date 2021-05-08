@@ -1,0 +1,8 @@
+subscription messageAdded($roomName: String!){
+  messageAdded(roomName: $roomName){
+    id
+    text
+    createdBy
+    createdAt
+  }
+}

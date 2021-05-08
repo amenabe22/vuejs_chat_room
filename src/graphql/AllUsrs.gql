@@ -1,0 +1,16 @@
+query
+{
+  usr{
+    name
+    email
+    company{
+      id
+      name
+      profile
+    }
+    nickName{
+      userRefer
+      nick
+    }
+  }
+}
